@@ -1,0 +1,12 @@
+echo -e "enter any 3 numbers: \c"
+read x y z
+if($x -ge $Z);then
+  if($x -ge $y);then
+    echo "$x is the largest number "
+  else
+     echo "$a is the largest number "
+elseif($y -ge $z);then
+    echo "$y is the largest number "
+  else
+     echo "$z is the largest number "
+     
