@@ -1,0 +1,2 @@
+df --total
+df --total | grep total | awk '{if ($4==0) print"rw space"}; END{IF($4!=0) print "the available space is "$4"}'
