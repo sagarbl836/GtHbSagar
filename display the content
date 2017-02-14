@@ -1,0 +1,6 @@
+echo -e "enter a file name: \c"
+read file
+while read x;
+do
+  echo "$x"
+done < file
