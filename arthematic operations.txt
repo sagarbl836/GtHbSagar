@@ -1,0 +1,11 @@
+echo "a)addition \n b)subtraction \n c)multiplication \n d)division"
+echo -e "enter your option: \c"
+read option
+echo -e "enter any two numbers: \c"
+read  x y
+case "$option" in
+  a)expr $x+$y ;;
+  b)expr $x-$y ;;
+  c)expr $x\*$y ;;
+  d)expr $x/$y ;;
+esac
